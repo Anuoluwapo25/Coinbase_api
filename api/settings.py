@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-r#--fvv4kqhjj+i7ze1i)5^u%+xxv65+#)=hj2bcsrx$=&t*@8
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["http://coinbase-api.onrender.com"]
+ALLOWED_HOSTS = ["*"]
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",  
